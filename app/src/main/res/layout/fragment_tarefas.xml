@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.TarefasFragment">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:paddingLeft="10dp"
+       android:paddingRight="10dp"
+       android:id="@+id/list_filtro">
+
+       <EditText
+           android:layout_weight="3"
+           android:layout_width="match_parent"
+           android:layout_height="60dp"
+           android:inputType="date"
+           android:id="@+id/data_consulta"
+           android:focusable="false"
+           android:hint="Selecione uma data "
+
+
+           />
+       <Button
+           android:layout_width="120dp"
+           android:layout_height="40dp"
+           android:layout_weight="1"
+           android:background="#fafafa"
+           android:text="Filtrar"
+           android:id="@+id/btn_filtrar"
+           android:backgroundTint="@color/colorAccent"
+           android:textColor="#fff"
+           />
+
+   </LinearLayout>
+
+   <ListView
+       android:layout_marginTop="55dp"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:id="@+id/list_tarefas"
+       android:paddingBottom="55dp">
+
+   </ListView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/addTarefa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="80dp"
+            android:layout_marginEnd="20dp"
+            android:clickable="true"
+            app:srcCompat="@drawable/ic_add_black_24dp" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

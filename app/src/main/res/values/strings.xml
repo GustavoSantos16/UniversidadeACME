@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Universidade ACME</string>
+    <string name="title_home">Home</string>
+    <string name="title_agenda">Agenda</string>
+    <string name="title_rendimento">Rendimento</string>
+    <string name="title_qrcode">QrCode</string>
+    <string name="title_perfil">Perfil</string>
+    <string name="title_activity_perfil">PerfilActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login_preferences">br.com.senaijandira.brechobernadete_login_preferences</string>
+    <string name="login_status">br.com.senaijandira.brechobernadete_login_status</string>
+    <string name="usuario_matricula">br.com.senaijandira.brechobernadete_usuario_email</string>
+    <string name="usuario_nome">br.com.senaijandira.brechobernadete_usuario_nome</string>
+    <string name="caminho_img_evento_noticia">http://10.0.2.2/INF4T/alcateck/acme/</string>
+</resources>
